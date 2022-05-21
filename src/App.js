@@ -2,7 +2,7 @@ import React from "react";
 // import GetPosts from "./components/GetPosts";
 // import GetPosts2 from "./components/GetPosts2";
 
-import UseStateDemo from "./components/UseStateDemo";
+// import UseStateDemo from "./components/UseStateDemo";
 import UseReducerDemo from "./components/UseReducerDemo";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       {/* <GetPosts /> */}
       {/* <GetPosts2 /> */}
 
-      <UseStateDemo />
+      {/* <UseStateDemo /> */}
       <UseReducerDemo />
     </div>
   );
