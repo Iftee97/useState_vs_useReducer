@@ -6,7 +6,7 @@ const initialState = {
   error: null,
 };
 
-function reducer(state, action) {
+const reducer = (state, action) => {
   switch (action.type) {
     case "SUCCESS":
       return {
@@ -23,9 +23,9 @@ function reducer(state, action) {
     default:
       return state;
   }
-}
+};
 
-function GetPosts2() {
+const GetPosts2 = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   useEffect(() => {
@@ -52,6 +52,6 @@ function GetPosts2() {
       {state.error && <p>{state.error}</p>}
     </div>
   );
-}
+};
 
 export default GetPosts2;

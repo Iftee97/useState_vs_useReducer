@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-function GetPosts() {
+const GetPosts = () => {
   const [isPending, setIsPending] = useState(true);
   const [error, setError] = useState(null);
   const [posts, setPosts] = useState([]);
@@ -35,6 +35,6 @@ function GetPosts() {
       {error && <p>{error}</p>}
     </div>
   );
-}
+};
 
 export default GetPosts;
