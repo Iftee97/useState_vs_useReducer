@@ -7,9 +7,9 @@ import UseReducerDemo from "./components/UseReducerDemo";
 function App() {
   return (
     <div>
-      {/* <GetPosts /> */}
-      {/* <GetPosts2 /> */}
-      {/* <UseStateDemo /> */}
+      {/* <GetPosts />
+      <GetPosts2 />
+      <UseStateDemo /> */}
       <UseReducerDemo />
     </div>
   );
