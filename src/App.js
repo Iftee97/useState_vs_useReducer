@@ -5,14 +5,14 @@ import UseStateDemo from "./components/UseStateDemo";
 import UseReducerDemo from "./components/UseReducerDemo";
 
 function App() {
-    return (
-        <div>
-            {/* <GetPosts /> */}
-            {/* <GetPosts2 /> */}
-            {/* <UseStateDemo /> */}
-            <UseReducerDemo />
-        </div>
-    );
+  return (
+    <div>
+      {/* <GetPosts /> */}
+      {/* <GetPosts2 /> */}
+      {/* <UseStateDemo /> */}
+      <UseReducerDemo />
+    </div>
+  );
 }
 
 export default App;
